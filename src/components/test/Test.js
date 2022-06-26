@@ -1,9 +1,12 @@
+import { NavBar } from "../../common/NavBar";
 
-function Test(){
-    return <div >
-   
-    </div>;
+
+function Test() {
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
-
-export default Test
+export default Test;

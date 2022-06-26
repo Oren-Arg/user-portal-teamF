@@ -1,14 +1,16 @@
 import styles from './style.module.css'
 import Header from '../../components/layout/Header'
-import MainDashboard from './MainDashboard'
+
+iport Options from './Options'
 
 
 // Creator : Team F - Asael
 function Dashboard(){
     return <>
-    Dashboard
+
+    Dashboard:
     <Header/>
-    <MainDashboard />
+    <Options/>
 
     </>
 }
