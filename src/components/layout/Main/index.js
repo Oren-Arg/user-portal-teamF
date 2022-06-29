@@ -17,6 +17,7 @@ import ExerciseResult from "../../../pages/TrainReading/Level/ExerciseResult";
 
 // import Popup from "../Popup/Popup"
 import TeamF from "../../teams/TeamF";
+import { SignIn } from "../../../pages/SignUp/Sign-in/SignIn.jsx";
 
 import CalibrateCam from "../../../pages/TrainFocus/CalibrateCam";
 // import Context from "../../../context";
@@ -74,7 +75,7 @@ function Main() {
           <Route path="settings" element={<Settings />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="sign-out" element={<>sign-out</>} />
+          <Route path="sign-out" element={<SignIn />} />
         </Route>
 
         {/* Team G */}
