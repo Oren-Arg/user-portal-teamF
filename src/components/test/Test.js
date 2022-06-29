@@ -1,12 +1,12 @@
-import Settings from "../../pages/Settings";
-import SubmitBtn from "../common/SubmitBtn";
-
-
 function Test() {
+
   return (
     <>
-   <Settings/>
-  
+      {/* <Box1 /> */}
+      {/* <TeamF /> */}
+      {/* <Options /> */}
+      {/* <Nav /> */}
+      <Dashboard />
     </>
   );
 }

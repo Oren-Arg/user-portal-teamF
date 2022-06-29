@@ -8,7 +8,7 @@ import { NavBar } from "../../common/Nav";
 function TeamF() {
   return (
     <>
-      <CancelBtn />
+      {/* <CancelBtn />
       <DashboardBtn />
       <TrueBtn />
       {/* <NavBackButt /> */}
@@ -17,4 +17,4 @@ function TeamF() {
   );
 }
 
-export default TeamF;
+// export default TeamF;
