@@ -7,18 +7,18 @@ import TeamF from "../teams/TeamF";
 import { dataContext } from "../../context/context";
 import { useContext, useEffect } from "react";
 function Test() {
-  const localDataContext = useContext(dataContext);
-  useEffect(() => {
-    console.log("das");
-    console.log(localDataContext);
-  });
+//   const localDataContext = useContext(dataContext);
+//   useEffect(() => {
+    // console.log("das");
+    // console.log(localDataContext);
+//   });
   return (
     <>
-      <Box1 />
+      {/* <Box1 /> */}
       {/* <TeamF /> */}
       {/* <Options /> */}
       {/* <Nav /> */}
-      {/* <Dashboard /> */}
+      <Dashboard />
     </>
   );
 }
