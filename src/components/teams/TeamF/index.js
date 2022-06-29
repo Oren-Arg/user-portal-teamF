@@ -1,4 +1,4 @@
-import { NavBackButt } from "../../common/NavBackButt";
+// import { NavBackButt } from "../../common/NavBackButt";
 import CancelBtn from "../../common/cancelBtn";
 import DashboardBtn from "../../common/DashboardBtn";
 import TrueBtn from "../../common/trueBtn";
@@ -8,13 +8,13 @@ import { NavBar } from "../../common/Nav";
 function TeamF() {
   return (
     <>
-      <CancelBtn />
+      {/* <CancelBtn />
       <DashboardBtn />
       <TrueBtn />
-      <NavBackButt />
+      {/* <NavBackButt /> */}
       <NavBar />
     </>
   );
 }
 
-export default TeamF;
+// export default TeamF;
